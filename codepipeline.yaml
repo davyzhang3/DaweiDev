@@ -32,7 +32,7 @@ Parameters:
     Default: "GitHub"
   FullRepositoryId:
     Type: String
-    Default: "https://github.com/davyzhang3/DaweiDev.git"
+    Default: "davyzhang3/DaweiDev"
   MainGitBranch:
     Type: String
     Default: "main"
@@ -44,7 +44,7 @@ Parameters:
     Default: "ca-central-1"
   TestingStackName:
     Type: String
-    Default: "sam-app-stage-1"
+    Default: "DaweiDev"
   TestingPipelineExecutionRole:
     Type: String
     Default: "arn:aws:iam::077560370356:role/aws-sam-cli-managed-DaweiDev-PipelineExecutionRole-11ARY6VHJSUNM"
@@ -65,7 +65,7 @@ Parameters:
     Default: "ca-central-1"
   ProdStackName:
     Type: String
-    Default: "sam-app-stage-2"
+    Default: "DaweiDev2"
   ProdPipelineExecutionRole:
     Type: String
     Default: "arn:aws:iam::077560370356:role/aws-sam-cli-managed-DaweiDev-PipelineExecutionRole-11ARY6VHJSUNM"
