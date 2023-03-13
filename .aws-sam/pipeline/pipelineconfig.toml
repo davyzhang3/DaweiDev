@@ -1,0 +1,24 @@
+version = 0.1
+[default]
+[default.pipeline_bootstrap]
+[default.pipeline_bootstrap.parameters]
+pipeline_user = "arn:aws:iam::077560370356:user/aws-sam-cli-managed-DaweiDevConfigura-PipelineUser-P5L70SJZTOY8"
+permissions_provider = "AWS IAM"
+
+[DaweiDevConfiguration]
+[DaweiDevConfiguration.pipeline_bootstrap]
+[DaweiDevConfiguration.pipeline_bootstrap.parameters]
+pipeline_execution_role = "arn:aws:iam::077560370356:role/aws-sam-cli-managed-DaweiDev-PipelineExecutionRole-11ARY6VHJSUNM"
+cloudformation_execution_role = "arn:aws:iam::077560370356:role/aws-sam-cli-managed-Dawei-CloudFormationExecutionR-10OQ9QHO3RIWE"
+artifacts_bucket = "aws-sam-cli-managed-daweidevconfi-artifactsbucket-po8sm12avvu7"
+image_repository = ""
+region = "ca-central-1"
+
+[DaweiDevConfiguration2]
+[DaweiDevConfiguration2.pipeline_bootstrap]
+[DaweiDevConfiguration2.pipeline_bootstrap.parameters]
+pipeline_execution_role = "arn:aws:iam::077560370356:role/aws-sam-cli-managed-DaweiDev-PipelineExecutionRole-11ARY6VHJSUNM"
+cloudformation_execution_role = "arn:aws:iam::077560370356:role/aws-sam-cli-managed-Dawei-CloudFormationExecutionR-10OQ9QHO3RIWE"
+artifacts_bucket = "aws-sam-cli-managed-daweidevconfi-artifactsbucket-po8sm12avvu7"
+image_repository = ""
+region = "ca-central-1"
